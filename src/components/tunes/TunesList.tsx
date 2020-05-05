@@ -1,27 +1,33 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Song } from '../../types'
 
 // styles
 import './TunesList.scss'
 
+//children
+import TunesSong from './TunesSong'
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
+
 // props
-interface Props {}
+interface Props {
+    songs: Song[]
+}
 
 // component
 const TunesList = (props: Props) => {
-    // state
-    const [songs, setSongs] = useState([
-        { id: 1, artist: 'No name', album: 'Affected' },
-        { id: 2, artist: 'Miro', album: 'I love me' },
-        { id: 3, artist: 'Oasis', album: 'Hello' },
-    ])
+    const { songs } = props
 
     // template
     return (
-        <ul className="tunes-list">
+        <TransitionGroup component="ul" className="tunes-list">
             {songs.map((song) => (
-                <li key={song.id}>{JSON.stringify(song)}</li>
+                <CSSTransition key={song.id} timeout={200} classNames="song">
+                    <li key={song.id}>
+                        <TunesSong song={song} />
+                    </li>
+                </CSSTransition>
             ))}
-        </ul>
+        </TransitionGroup>
     )
 }
 

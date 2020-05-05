@@ -5,7 +5,7 @@ import styles from './TheNavigation.module.scss'
 
 interface Props {}
 
-const TheNavigation = (props: Props) => {
+const TheNavigation = () => {
     return (
         <nav className={styles.navigation}>
             <NavLink to="/" activeClassName={styles.active} exact>
