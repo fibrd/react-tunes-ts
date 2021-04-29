@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a17de3b.chunk.css",
+    "main.js": "/static/js/main.40d8f774.chunk.js",
+    "main.js.map": "/static/js/main.40d8f774.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b3d7bbe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b3d7bbe.js.map",
+    "static/js/2.799fa94b.chunk.js": "/static/js/2.799fa94b.chunk.js",
+    "static/js/2.799fa94b.chunk.js.map": "/static/js/2.799fa94b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cec02608bb1bf7a23068fc5ba026a739.js": "/precache-manifest.cec02608bb1bf7a23068fc5ba026a739.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8a17de3b.chunk.css.map": "/static/css/main.8a17de3b.chunk.css.map",
+    "static/js/2.799fa94b.chunk.js.LICENSE.txt": "/static/js/2.799fa94b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/TunesSearchForm.scss": "/static/media/search.4aa3e445.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b3d7bbe.js",
+    "static/js/2.799fa94b.chunk.js",
+    "static/css/main.8a17de3b.chunk.css",
+    "static/js/main.40d8f774.chunk.js"
+  ]
+}
